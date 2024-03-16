@@ -1,0 +1,42 @@
+<img src="" alt=""> -> carregamento de imagens, scr se refere ao arquivo e alt é a mensagem carregada quando o conteúdo não carrega
+
+<ul>
+    <li></li>
+</ul> -> Criação De listagem, os elementos internos são definidos por uma <li>
+
+
+<form action=""> -> Tag para Criação formulario, alguns de seus elementos internos:
+<fieldset> -> para agrupar entradas de elementos como inputs e rótulos, labels
+*label se usa separado dos inputs, 
+
+<form action="">
+    <fieldset>   
+        <legend>
+            Premiações
+        </legend>
+        <label>Quantas vezes Marta foi considerada a melhor jogadora como a melhor jogadora do mundo pela Federação?</label>
+        <input type="radio" name="premiações">
+        <label>5</label>
+    </fieldset>   
+</form>
+
+
+
+*Boas Práticas (css):
+
+- Não colocar nome de classe 
+-Margens usam-se em elementos de estruturação
+
+Posicionamento itens css com display flex:
+
+display:flex -> habilita o Posicionamento
+
+flex-direction -> determina o eixo principal
+justify-content -> Posicionamento no eixo principal
+alig-itens  ->  Posicionamento no eixo secundário
+
+<figure>
+    <img src="">
+    <figurecaption>
+</figure>
+
